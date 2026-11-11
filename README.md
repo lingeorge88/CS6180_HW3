@@ -30,12 +30,10 @@ The app picks the device automatically: CUDA, then Apple MPS, then CPU.
 ## API adjustments vs. starter code
 - With transformers ≥ 5 and no dtype given, the model loads in the checkpoint's bfloat16 (MPS/CUDA).
 - `do_sample=False` (greedy decoding) is used so that evaluation results are reproducible.
-- TODO: list any other changes you made.
 
 ## Results
 - Evaluation table: `eval_results.csv` (and section 5 of the notebook)
-- Demo video: TODO link
-- Analysis (~100 words): TODO
+- Demo video: https://youtu.be/Z9XNi0SV9Lo
 
 ## Credits
 - **Model:** [SmolVLM-256M-Instruct](https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct), Hugging Face TB Research, Apache-2.0.
